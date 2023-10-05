@@ -8,7 +8,7 @@ export default function Projects() {
 
 
    return (
-      <section>
+      <section id="projects" className="scroll-mt-28">
          <SectionHeading>my projects</SectionHeading>
 
          <div>
