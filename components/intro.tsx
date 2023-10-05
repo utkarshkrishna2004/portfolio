@@ -87,7 +87,7 @@ export default function Intro() {
                   //   setTimeOfLastClick(Date.now());
                }}
             >
-               Contact Me 
+               Contact Me Here
                <BsArrowRight className="transition opacity-70 group-hover:translate-x-1" />
             </Link>
 
