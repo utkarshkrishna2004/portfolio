@@ -10,12 +10,16 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
+import { useActiveSectionContext } from "@/context/active-section-context";
 
 
 
 export default function Intro() {
 
    const { ref } = useSectionInView('Home', 0.5);
+   const{
+      setActiveSection, setTimeOfLastClick
+   } = useActiveSectionContext()
 
    return (
       <section
@@ -84,8 +88,8 @@ export default function Intro() {
                href="#contact"
                className="flex items-center gap-2 py-3 text-white transition bg-gray-900 rounded-full outline-none group px-7 focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105"
                onClick={() => {
-                  //   setActiveSection("Contact");
-                  //   setTimeOfLastClick(Date.now());
+                    setActiveSection("Contact");
+                    setTimeOfLastClick(Date.now());
                }}
             >
                Contact Me Here
