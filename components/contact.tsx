@@ -43,10 +43,6 @@ export default function Contact() {
         <form
            className="flex flex-col mt-10 dark:text-black"
            action={async (formData) => {
-            console.log("Running on client");
-              
-            console.log(formData.get("senderEmail"));
-            console.log(formData.get("message"));
             
             await sendEmail(formData);
             
@@ -65,7 +61,7 @@ export default function Contact() {
               name='message'
               placeholder="Your message"
               required
-              maxLength={500}
+              maxLength={5000}
            />
            <button
               type="submit"
