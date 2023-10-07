@@ -2,9 +2,10 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+
+import currencyImg from "@/public/currency.jpeg"
+import passwordImg from "@/public/password.jpeg"
+import reactPortfolioImg from "@/public/reactPortfolio.jpeg"
 
 export const links = [
    {
@@ -35,20 +36,20 @@ export const links = [
 
 export const experiencesData = [
    {
-      title: "Graduated bootcamp",
-      location: "Miami, FL",
+      title: "Graduated college",
+      location: "Kolkata, IND",
       description:
-         "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+         "I graduated after 4 years of studying B.Tech and I immediately found a job as a full-stack developer.",
       icon: React.createElement(LuGraduationCap),
-      date: "2019",
+      date: "2026",
    },
    {
       title: "Front-End Developer",
-      location: "Orlando, FL",
+      location: "Pune, IND",
       description:
          "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
       icon: React.createElement(CgWorkAlt),
-      date: "2019 - 2021",
+      date: "2024 - 2026",
    },
    {
       title: "Full-Stack Developer",
@@ -56,31 +57,40 @@ export const experiencesData = [
       description:
          "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
       icon: React.createElement(FaReact),
-      date: "2021 - present",
+      date: "2026 - present",
    },
 ] as const;
 
 export const projectsData = [
    {
-      title: "CorpComment",
+      title: "React Portfolio",
       description:
-         "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-      tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-      imageUrl: corpcommentImg,
+         "Responsive React portfolio site with smooth scrolling, Tailwind CSS, and Getform.io integration for contact forms.",
+      tags: ["React", "JavaScript", "Tailwind", "Getform.io"],
+      imageUrl: reactPortfolioImg,
+      deploymentLink: "https://utkarsh-krishna-portfolio.vercel.app/",
+      codeLink:
+         "https://github.com/utkarshkrishna2004/react-portfolio/tree/main",
    },
    {
-      title: "rmtDev",
+      title: "Currency Converter",
       description:
-         "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-      tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-      imageUrl: rmtdevImg,
+         "React currency converter with API integration, JavaScript, Tailwind CSS, and extensive conversion options.",
+      tags: ["React", "JavaScript", "Tailwind"],
+      imageUrl: currencyImg,
+      deploymentLink: "https://react-currency-converter-six.vercel.app/",
+      codeLink:
+         "https://github.com/utkarshkrishna2004/Learning-React/tree/main/06currencyconverter",
    },
    {
-      title: "Word Analytics",
+      title: "Password Generator",
       description:
-         "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-      tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-      imageUrl: wordanalyticsImg,
+         "Password generator site built with React, JavaScript, and Tailwind CSS, offering customizable password length and special characters.",
+      tags: ["React", "JavaScript", "Tailwind"],
+      imageUrl: passwordImg,
+      deploymentLink: "https://react-password-generator-dun.vercel.app/",
+      codeLink:
+         "https://github.com/utkarshkrishna2004/Learning-React/tree/main/05passwordgenerator",
    },
 ] as const;
 
@@ -89,19 +99,17 @@ export const skillsData = [
    "CSS",
    "JavaScript",
    "TypeScript",
+   "Tailwind",
    "React",
+   "Redux",
    "Next.js",
    "Node.js",
    "Git",
-   "Tailwind",
-   "Prisma",
+   "GitHub",
+   "C",
+   "Java",
+   "Firebase",
+   "Sanity",
    "MongoDB",
-   "Redux",
-   "GraphQL",
-   "Apollo",
-   "Express",
-   "PostgreSQL",
-   "Python",
-   "Django",
    "Framer Motion",
 ] as const;

@@ -107,7 +107,7 @@ export default function Intro() {
 
             <a
                className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border border-black/10  dark:bg-white/10 dark:text-white/60"
-               href="https://linkedin.com"
+               href="https://www.linkedin.com/in/utkarsh-krishna-3bab41240/"
                target="_blank"
             >
                <BsLinkedin />
@@ -115,7 +115,7 @@ export default function Intro() {
 
             <a
                className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10  dark:bg-white/10 dark:text-white/60"
-               href="https://github.com"
+               href="https://github.com/utkarshkrishna2004"
                target="_blank"
             >
                <FaGithubSquare />
@@ -123,7 +123,7 @@ export default function Intro() {
 
             <a
                className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10  dark:bg-white/10 dark:text-white/60"
-               href="https://twitter.com"
+               href="https://twitter.com/utkarshktweets"
                target="_blank"
             >
                <FaTwitter />
