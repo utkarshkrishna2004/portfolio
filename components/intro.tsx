@@ -23,7 +23,7 @@ export default function Intro() {
 
    return (
       <section
-          ref={ref}
+         ref={ref}
          id="home"
          className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
       >
@@ -88,8 +88,8 @@ export default function Intro() {
                href="#contact"
                className="flex items-center gap-2 py-3 text-white transition bg-gray-900 rounded-full outline-none group px-7 focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105"
                onClick={() => {
-                    setActiveSection("Contact");
-                    setTimeOfLastClick(Date.now());
+                  setActiveSection("Contact");
+                  setTimeOfLastClick(Date.now());
                }}
             >
                Contact Me Here
@@ -97,7 +97,7 @@ export default function Intro() {
             </Link>
 
             <a
-               className="flex items-center gap-2 py-3 transition bg-white border rounded-full outline-none cursor-pointer group px-7 focus:scale-110 hover:scale-110 active:scale-105 border-black/10 "
+               className="flex items-center gap-2 py-3 transition bg-white border rounded-full outline-none cursor-pointer group px-7 focus:scale-110 hover:scale-110 active:scale-105 border-black/10 dark:bg-white/10"
                href="/CV.pdf"
                download
             >
@@ -106,7 +106,7 @@ export default function Intro() {
             </a>
 
             <a
-               className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border border-black/10 "
+               className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border border-black/10  dark:bg-white/10 dark:text-white/60"
                href="https://linkedin.com"
                target="_blank"
             >
@@ -114,7 +114,7 @@ export default function Intro() {
             </a>
 
             <a
-               className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10 "
+               className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10  dark:bg-white/10 dark:text-white/60"
                href="https://github.com"
                target="_blank"
             >
@@ -122,13 +122,12 @@ export default function Intro() {
             </a>
 
             <a
-               className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10 "
+               className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10  dark:bg-white/10 dark:text-white/60"
                href="https://twitter.com"
                target="_blank"
             >
                <FaTwitter />
             </a>
-            
          </motion.div>
       </section>
    );
