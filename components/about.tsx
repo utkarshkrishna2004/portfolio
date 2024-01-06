@@ -23,7 +23,7 @@ export default function About() {
         <p className="mb-3">
            Hey, I'm <span className="font-medium">Utkarsh</span>, a MERN Stack
            Developer passionate about crafting captivating{" "}
-           <span className="font-bold">front-end interfaces</span> and exploring
+           <span className="font-bold">frontend interfaces</span> and exploring
            the intricacies of{" "}
            <span className="font-bold">backend development</span>. Specializing
            in creating seamless user experiences, I thrive on turning ideas into
