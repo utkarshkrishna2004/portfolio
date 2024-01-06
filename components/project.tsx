@@ -59,17 +59,19 @@ export default function Project({
 
                {/* "Visit" and "Code" buttons */}
                <div className="mt-4 space-x-4">
-                  <button
+                  {/* <button
                      onClick={openDeploymentLink}
                      className="px-6 py-2 text-white transition bg-gray-800 rounded-full outline-none group focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 dark:bg-white/80 dark:text-black"
                   >
                      Deployment
-                  </button>
+                  </button> */}
                   <button
                      onClick={openCodeLink}
-                     className="px-6 py-2 text-black transition bg-gray-300 rounded-full outline-none group focus:scale-110 hover:scale-110 hover:bg-gray-400 active:scale-105 border-black/10 dark:bg-white/10 dark:text-white"
+                     // className="px-6 py-2 text-black transition bg-gray-300 rounded-full outline-none group focus:scale-110 hover:scale-110 hover:bg-gray-400 active:scale-105 border-black/10 dark:bg-white/10 dark:text-white"
+                     className="px-6 py-2 text-white transition bg-gray-800 rounded-full outline-none group focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 dark:bg-white/80 dark:text-black"
                   >
-                     Code
+                     {/* Code */}
+                     Visit
                   </button>
                </div>
             </div>

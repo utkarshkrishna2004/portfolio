@@ -11,7 +11,7 @@ export default function About() {
 
   return (
      <motion.section
-         ref={ref}
+        ref={ref}
         className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
@@ -21,24 +21,32 @@ export default function About() {
         <SectionHeading>about me</SectionHeading>
 
         <p className="mb-3">
-           Hey there, I'm <span className="font-medium">Utkarsh</span>, a
-           Front-End Dev geeking out over web stuff. Armed with HTML, CSS,
-           JavaScript, TypeScript,{" "}
-           <span className="font-medium">React.js and Next.js.</span> I love to
-           create pixel-perfect, user-friendly interfaces.
-           <br />
-           I've got a secret sauce called{" "}
-           <span className="font-medium">Tailwind CSS</span> or making designs
-           pop and <span className="font-medium">Git/GitHub </span>
-           for keeping my code game strong.
+           Hey, I'm <span className="font-medium">Utkarsh</span>, a MERN Stack
+           Developer passionate about crafting captivating{" "}
+           <span className="font-bold">front-end interfaces</span> and exploring
+           the intricacies of{" "}
+           <span className="font-bold">backend development</span>. Specializing
+           in creating seamless user experiences, I thrive on turning ideas into
+           visually appealing realities.
+        </p>
+
+        <p className="mb-3">
+           My love extends beyond the surface. I'm equally enamored with the{" "}
+           <span className="font-bold">backend magic</span> that powers web
+           applications. With expertise in{" "}
+           <span className="font-bold">Node.js, Express.js, and MongoDB</span>,
+           I enjoy architecting the backbone of solutions. Whether it's making
+           designs pop with <span className="font-bold">Tailwind CSS</span> or
+           delving into the complexities of{" "}
+           <span className="font-bold">backend tech</span>, I'm here to turn
+           your web dreams into a fusion of aesthetics and functionality.
         </p>
 
         <p>
-           When I'm not lost in code, I'm probably exploring new tech, geeking
-           out on open-source projects, or writing some blogs on{" "}
-           <span className="font-medium">Hashnode</span>. <br />
-           Let's team up and turn your web dreams into reality. Drop me a line,
-           and let's start the coding adventure!
+           Beyond the code, I explore tech, contribute to open-source projects,
+           and share insights on <span className="font-bold">Hashnode</span>.
+           Ready to bring your web vision to life? Drop me a line, and let's
+           embark on a coding adventure!
         </p>
      </motion.section>
   );

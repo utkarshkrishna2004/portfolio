@@ -6,6 +6,9 @@ import { LuGraduationCap } from "react-icons/lu";
 import currencyImg from "@/public/currency.jpeg"
 import passwordImg from "@/public/password.jpeg"
 import reactPortfolioImg from "@/public/reactPortfolio.jpeg"
+import blogged from "@/public/blogged.png"
+import Todo from "@/public/Todo.png"
+import Bookstore from "@/public/Bookstore.png"
 
 export const links = [
    {
@@ -63,53 +66,53 @@ export const experiencesData = [
 
 export const projectsData = [
    {
-      title: "React Portfolio",
+      title: "Blogged",
       description:
-         "Responsive React portfolio site with smooth scrolling, Tailwind CSS, and Getform.io integration for contact forms.",
-      tags: ["React", "JavaScript", "Tailwind", "Getform.io"],
-      imageUrl: reactPortfolioImg,
+         "A fullstack blogging platform with seamless navigation and powerful content creation features.",
+      tags: ["React", "Appwrite", "JavaScript", "Tailwind", "TinyMCE"],
+      imageUrl: blogged,
       deploymentLink: "https://utkarsh-krishna-portfolio.vercel.app/",
-      codeLink:
-         "https://github.com/utkarshkrishna2004/react-portfolio/tree/main",
+      codeLink: "https://github.com/utkarshkrishna2004/blogged",
    },
    {
-      title: "Currency Converter",
+      title: "MERN Bookstore",
       description:
-         "React currency converter with API integration, JavaScript, Tailwind CSS, and extensive conversion options.",
-      tags: ["React", "JavaScript", "Tailwind"],
-      imageUrl: currencyImg,
+         "a dynamic MERN stack booklist app with intuitive management and detailed insights.",
+      tags: ["React", "Node", "Express", "MongoDB", "Tailwind"],
+      imageUrl: Bookstore,
       deploymentLink: "https://react-currency-converter-six.vercel.app/",
-      codeLink:
-         "https://github.com/utkarshkrishna2004/Learning-React/tree/main/06currencyconverter",
+      codeLink: "https://github.com/utkarshkrishna2004/MERN-Bookstore",
    },
    {
-      title: "Password Generator",
+      title: "TODO",
       description:
-         "Password generator site built with React, JavaScript, and Tailwind CSS, offering customizable password length and special characters.",
+         "A stylish and efficient TODO app with local storage integration for seamless task management experience.",
       tags: ["React", "JavaScript", "Tailwind"],
-      imageUrl: passwordImg,
+      imageUrl: Todo,
       deploymentLink: "https://react-password-generator-dun.vercel.app/",
       codeLink:
-         "https://github.com/utkarshkrishna2004/Learning-React/tree/main/05passwordgenerator",
+         "https://github.com/utkarshkrishna2004/Learning-React/tree/main/10todoContextwithLocalStorage",
    },
 ] as const;
 
 export const skillsData = [
-   "HTML",
-   "CSS",
+   "React",
+   "NodeJs",
+   "ExpressJs",
+   "MongoDB",
+   "NextJs",
    "JavaScript",
    "TypeScript",
-   "Tailwind",
-   "React",
-   "Redux",
-   "Next.js",
-   "Node.js",
+   "Appwrite",
+   "Firebase",
    "Git",
    "GitHub",
+   "Postman",
+   "HTML",
+   "CSS",
+   "Tailwind CSS",
+   "Framer Motion",
+   "Redux",
    "C",
    "Java",
-   "Firebase",
-   "Sanity",
-   "MongoDB",
-   "Framer Motion",
 ] as const;
