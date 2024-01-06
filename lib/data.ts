@@ -71,16 +71,16 @@ export const projectsData = [
          "A fullstack blogging platform with seamless navigation and powerful content creation features.",
       tags: ["React", "Appwrite", "JavaScript", "Tailwind", "TinyMCE"],
       imageUrl: blogged,
-      deploymentLink: "https://utkarsh-krishna-portfolio.vercel.app/",
+      // deploymentLink: "https://utkarsh-krishna-portfolio.vercel.app/",
       codeLink: "https://github.com/utkarshkrishna2004/blogged",
    },
    {
       title: "MERN Bookstore",
       description:
-         "a dynamic MERN stack booklist app with intuitive management and detailed insights.",
+         "A dynamic MERN stack booklist app with intuitive management and detailed insights.",
       tags: ["React", "Node", "Express", "MongoDB", "Tailwind"],
       imageUrl: Bookstore,
-      deploymentLink: "https://react-currency-converter-six.vercel.app/",
+      // deploymentLink: "https://react-currency-converter-six.vercel.app/",
       codeLink: "https://github.com/utkarshkrishna2004/MERN-Bookstore",
    },
    {
@@ -89,7 +89,7 @@ export const projectsData = [
          "A stylish and efficient TODO app with local storage integration for seamless task management experience.",
       tags: ["React", "JavaScript", "Tailwind"],
       imageUrl: Todo,
-      deploymentLink: "https://react-password-generator-dun.vercel.app/",
+      // deploymentLink: "https://react-password-generator-dun.vercel.app/",
       codeLink:
          "https://github.com/utkarshkrishna2004/Learning-React/tree/main/10todoContextwithLocalStorage",
    },
