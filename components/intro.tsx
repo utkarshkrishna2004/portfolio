@@ -100,10 +100,10 @@ export default function Intro() {
 
             <a
                className="flex items-center gap-2 py-3 transition bg-white border rounded-full outline-none cursor-pointer group px-7 focus:scale-110 hover:scale-110 active:scale-105 border-black/10 dark:bg-white/10"
-               href="/CV.pdf"
+               href="/Resume.pdf"
                download
             >
-               Download CV{" "}
+               Resume{" "}
                <HiDownload className="transition opacity-60 group-hover:translate-y-1" />
             </a>
 
