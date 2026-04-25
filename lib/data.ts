@@ -3,12 +3,11 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 
-import currencyImg from "@/public/currency.jpeg"
-import passwordImg from "@/public/password.jpeg"
-import reactPortfolioImg from "@/public/reactPortfolio.jpeg"
 import blogged from "@/public/blogged.png"
 import Todo from "@/public/Todo.png"
-import Bookstore from "@/public/Bookstore.png"
+import Saas from "@/public/Saas.png"
+import Bot from "@/public/Bot.png"
+
 
 export const links = [
    {
@@ -27,10 +26,6 @@ export const links = [
       name: "Skills",
       hash: "#skills",
    },
-   // {
-   //    name: "Experience",
-   //    hash: "#experience",
-   // },
    {
       name: "Contact",
       hash: "#contact",
@@ -66,53 +61,49 @@ export const experiencesData = [
 
 export const projectsData = [
    {
+      title: "Media Optimization SaaS",
+      description: "AI-powered platform for image transformation and CDN delivery.",
+      tags: ["Next.js", "Cloudinary", "Prisma", "PostgreSQL", "Clerk"],
+      imageUrl: Saas,
+      deploymentLink: "https://media-optimization-saas.vercel.app/",
+      codeLink: "https://media-optimization-saas.vercel.app/",
+   },
+   {
+      title: "ReviewBot",
+      description: "AI tool that reviews code snippets with real-time Gemini-powered feedback.",
+      tags: ["React", "Node.js", "Express", "Gemini API", "Tailwind CSS"],
+      imageUrl: Bot,
+      deploymentLink: "https://github.com/utkarshkrishna2004/ReviewBot",
+      codeLink: "https://github.com/utkarshkrishna2004/ReviewBot",
+   },
+   {
       title: "Blogged",
-      description:
-         "A fullstack blogging platform with seamless navigation and powerful content creation features.",
+      description: "A fullstack blogging platform with powerful content creation features.",
       tags: ["React", "Appwrite", "JavaScript", "Tailwind", "TinyMCE"],
       imageUrl: blogged,
       deploymentLink: "https://utkarsh-krishna-portfolio.vercel.app/",
       codeLink: "https://github.com/utkarshkrishna2004/blogged",
    },
-   {
-      title: "MERN Bookstore",
-      description:
-         "A dynamic MERN stack booklist app with intuitive management and detailed insights.",
-      tags: ["React", "Node", "Express", "MongoDB", "Tailwind"],
-      imageUrl: Bookstore,
-      deploymentLink: "https://react-currency-converter-six.vercel.app/",
-      codeLink: "https://github.com/utkarshkrishna2004/MERN-Bookstore",
-   },
-   {
-      title: "TODO",
-      description:
-         "A stylish and efficient TODO app with local storage integration for seamless task management experience.",
-      tags: ["React", "JavaScript", "Tailwind"],
-      imageUrl: Todo,
-      deploymentLink: "https://react-password-generator-dun.vercel.app/",
-      codeLink:
-         "https://github.com/utkarshkrishna2004/Learning-React/tree/main/10todoContextwithLocalStorage",
-   },
 ] as const;
 
 export const skillsData = [
-   "React",
-   "NodeJs",
-   "ExpressJs",
-   "MongoDB",
-   "NextJs",
    "JavaScript",
-   "TypeScript",
-   "Appwrite",
-   "Firebase",
+   "C++",
+   "React.js",
+   "Next.js",
+   "Node.js",
+   "Express.js",
+   "Tailwind CSS",
+   "PostgreSQL",
+   "MongoDB",
+   "MySQL",
    "Git",
    "GitHub",
    "Postman",
-   "HTML",
-   "CSS",
-   "Tailwind CSS",
-   "Framer Motion",
-   "Redux",
-   "C",
-   "Java",
+   "Prisma",
+   "Cloudinary",
+   "Clerk",
+   "REST APIs",
+   // "OOP",
+   // "DBMS",
 ] as const;
